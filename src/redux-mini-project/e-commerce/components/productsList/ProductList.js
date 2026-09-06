@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchData, loadProducts } from "../../slices/productSlice";
+import { fetchData } from "../../slices/productSlice";
 import SingleProduct from "../singleProduct/SingleProduct";
 import "./ProductList.css";
 // import Spinner from "react-bootstrap/Spinner";
-import { Alert, Flex, Spin } from "antd";
+import { Spin } from "antd";
 
 const ProductList = () => {
   const products = useSelector((state) => state.productReducer.products);
@@ -25,7 +25,7 @@ const ProductList = () => {
   useEffect(() => {
     dispatch(fetchData());
     // fetchData();
-  }, []);
+  }, [dispatch]);
 
   const contentStyle = {
     padding: 50,
