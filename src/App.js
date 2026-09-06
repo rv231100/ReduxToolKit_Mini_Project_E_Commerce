@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ReduxEcomMainApp from "./redux-mini-project/ReduxEcomMainApp";
+// import MainAppCrypto from "./Crypto-Convertor-App/MainAppCrypto";
+// import MainApp from "./NewApiApp/main_app/MainApp";
+// import MainApp from "./NotesApp/main/MainApp";
+// import MainCard from "./Components/MainCard";
+// import MainApp from "./PracticeSection/MainApp/MainApp";
+// import ReduxApp from "./PracticeSection/ReduxPractice/ReduxApp";
+
+// import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MainCard /> */}
+      {/* <MainApp /> */}
+      {/* <MainAppCrypto /> */}
+      {/* <ReduxApp /> */}
+      <ReduxEcomMainApp />
     </div>
   );
 }

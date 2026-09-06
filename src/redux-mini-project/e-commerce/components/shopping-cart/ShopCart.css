@@ -1,0 +1,44 @@
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .right-content {
+    width: 18rem;
+    text-align: justify;
+    margin-left: 10em;
+} */
+
+/* .price {
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* .left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side p {
+    color: gray;
+} */
+
+/* input {
+    width: 90%;
+    border: none;
+    border-right: 0;
+} */
+
+/* .promo {
+    background-color: rgb(13, 149, 103);
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 50px;
+} */
+
+/* .right-side {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */

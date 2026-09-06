@@ -1,0 +1,151 @@
+.navi {
+    /* width: 100vw; */
+    /* height: 100px; */
+    /* margin-inline: 20px; */
+    /* margin-block: 8px; */
+    background-color: #FFFFFF;
+    border-bottom: 3px solid lightgray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.hamburger-icon {
+    color: lightgrey;
+    margin-inline: 8px;
+    font-size: x-large;
+    font-weight: 500;
+    color: #384848;
+}
+
+.right-layout {
+    /* height: 50px;
+    width: 60px; */
+    color: #384848;
+
+}
+
+.cart-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: xx-large;
+}
+
+.cart-layout .heart-icon {
+    margin-block: auto;
+    cursor: pointer;
+}
+
+.cart-layout .heart-icon .heart:hover {
+    margin-block: auto;
+    cursor: pointer;
+    color: rgb(240, 106, 106);
+}
+
+
+.cart-layout .cart {
+    margin-block: auto;
+
+}
+
+.cart-layout h3 {
+    margin-block: auto;
+
+}
+
+.mynav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.delivery {
+    display: flex;
+    background-color: #DBDBDB;
+    column-gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px;
+    margin-top: 66px;
+    /* border: -111px solid gray; */
+}
+
+.delivery p {
+    padding-top: 12px;
+}
+
+.navi:on .custom-offcanvas-width {
+    width: 72% !important;
+
+}
+
+.input-box {
+    margin: 10px;
+    margin-left: 40%;
+    box-shadow: 2px 2px 2px 2px #DBDBDB;
+    border-radius: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    padding-left: 50px;
+    width: 20%;
+    border-color: #3b82f6;
+    /* Custom color (e.g., sky blue) */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+    /* Soft outer glow */
+}
+
+input {
+    height: 40px;
+    border-radius: 30px;
+    width: 100% !important;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border-left: none;
+
+    border-top: 1px solid #3b82f6;
+    /* Set your desired focus color */
+    border-right: 1px solid #3b82f6;
+    border-bottom: 1px solid #3b82f6;
+
+    /* border-color: #3b82f6; */
+    /* Custom color (e.g., sky blue) */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+    /* Soft outer glow */
+}
+
+.search {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    color: #979797;
+    font-size: larger;
+}
+
+
+@media screen and (min-width:768px) {
+    .navi {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .delivery {
+        margin-top: 66px;
+    }
+}
+
+/* input::placeholder {
+    text-align: center;
+} */

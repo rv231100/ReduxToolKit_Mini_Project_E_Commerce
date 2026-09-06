@@ -4,6 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+src/Components
+src/Crypto-Convertor-App
+src/NewApiApp
+src/PracticeSection
+src/NotesApp
+
 
 # testing
 /coverage
